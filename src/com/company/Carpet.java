@@ -5,10 +5,6 @@ public class Carpet {
     private double cost;
 
     public Carpet(double cost) {
-
-    }
-
-    public void setCost(double cost) {
         if (cost < 0) {
             this.cost = 0;
         } else {
